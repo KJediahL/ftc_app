@@ -64,6 +64,7 @@ public class FtcOpModeRegister implements OpModeRegister {
      */
     public void register(OpModeManager manager) {
 
+        manager.register("TankDrive10565", TankDrive10565.class);
         /**
          * Register OpModes implemented in the Blocks visual programming language.
          */
