@@ -30,9 +30,10 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 //com.qualcomm.ftcrobotcontroller.opmodes
-package org.firstinspires.ftc.robotcontroller.internal;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.Range;
@@ -42,6 +43,7 @@ import com.qualcomm.robotcore.util.Range;
  * <p>
  * Enables control of the robot via the gamepad
  */
+@TeleOp(name="TeleOp10565", group="TeleOp")
 public class TankDrive10565 extends OpMode {
 
 	/*
