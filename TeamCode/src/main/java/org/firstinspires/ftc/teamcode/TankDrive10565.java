@@ -91,7 +91,7 @@ public class TankDrive10565 extends OpMode {
 
 		motorFrontLeft.setDirection(DcMotor.Direction.FORWARD);
 		motorBackLeft.setDirection(DcMotor.Direction.FORWARD);
-		motorFrontRight.setDirection(DcMotor.Direction.REVERSE);
+		motorFrontRight.setDirection(DcMotor.Direction.FORWARD);
 		motorBackRight.setDirection(DcMotor.Direction.REVERSE);
 	}
 
